@@ -1,0 +1,10 @@
+** 세선 정책
+
+SessionCreationPolicy.Always      : 스프링 시큐리티가 항상 세션 생성
+SessionCreationPolicy.If_Required : 스프링 시큐리티가 필요시 생성(기본 값)
+SessionCreationPolicy.Never       : 스프링 시큐리티가 생성 X but 존재하면 사용
+SessionCreationPolicy.Stateless   : 스프링 시큐리티가 생성 X and 존재해도 사용 X
+
+
+** JWT로만 인증을 하는 경우라면 SessionCreationPolicy.Stateless를 사용하면 된다.
+ 

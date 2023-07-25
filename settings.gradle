@@ -5,4 +5,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'SpringSecurity'
+rootProject.name = 'SpringSecurity1'
