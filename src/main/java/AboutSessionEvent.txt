@@ -1,0 +1,4 @@
+ HttpSessionEventPublisher를 설정클래스에서 리스너로 등록하면
+ 로그아웃시 세션 삭제 이벤트를 받게 되고 
+ 다시 SessionRegistryImpl에서 이벤트를 받아 
+ 세션 사용자 정보를 삭제해서 세션 최대 허용 개수를 관리하는 등의 동시적 세션 제어가 가능하다.

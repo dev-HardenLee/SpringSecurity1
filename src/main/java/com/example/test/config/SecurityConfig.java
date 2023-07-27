@@ -16,7 +16,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 
 @Configuration
-@EnableWebSecurity // WebSecurityConfiguration 등 웹 보안 활성화를 위한 여러 클래스들을 import 해준다.
+@EnableWebSecurity(debug = true) 
+// WebSecurityConfiguration 등 웹 보안 활성화를 위한 여러 클래스들을 import 해준다.
 // WebSecurityConfigurerAdapter -> 스프링 어플리케이션이 시작 시 동작, 웹 보안 기본 설정 초기화 수행
 @RequiredArgsConstructor
 @Log4j2
